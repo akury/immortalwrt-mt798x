@@ -1,0 +1,9 @@
+[submodule "package/custom/luci-app-mosdns"]
+	path = package/custom/luci-app-mosdns
+	url = https://github.com/sbwml/luci-app-mosdns.git
+[submodule "package/custom/v2ray-geodata"]
+	path = package/custom/v2ray-geodata
+	url = https://github.com/sbwml/v2ray-geodata
+[submodule "package/custom/lang/golang"]
+	path = package/custom/lang/golang
+	url = https://github.com/sbwml/packages_lang_golang
