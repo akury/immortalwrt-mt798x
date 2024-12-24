@@ -45,13 +45,6 @@ jobs:
           sed -i "/CONFIG_TARGET_DEVICE_mediatek_mt7981_DEVICE_/d" ./.config
           cat >> .config <<EOF
             CONFIG_TARGET_DEVICE_mediatek_mt7981_DEVICE_xiaomi_mi-router-wr30u-112m=y
-            CONFIG_PACKAGE_kmod-dm=y
-            CONFIG_PACKAGE_kmod-fs-btrfs=y
-            CONFIG_PACKAGE_kmod-br-netfilter=y
-            CONFIG_PACKAGE_kmod-ikconfig=y
-            CONFIG_PACKAGE_kmod-nf-ipvs=y
-            CONFIG_PACKAGE_kmod-veth=y
-            CONFIG_PACKAGE_kmod-netlink-diag=y
             CONFIG_PACKAGE_luci-app-nlbwmon=y
             CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
             CONFIG_PACKAGE_luci-app-mosdns=y
